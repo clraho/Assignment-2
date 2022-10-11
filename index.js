@@ -9,7 +9,7 @@ app.get('/',function(req,res){
 
 app.get('/login.html',function(req,res){
     res.sendFile(__dirname+'/login.html');
-});
+}); 
 
 app.listen(3000,function(){
     console.log('Example app listenning on port 3000!')
